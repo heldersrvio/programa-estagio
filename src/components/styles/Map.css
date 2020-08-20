@@ -1,0 +1,23 @@
+#mapid {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+#mapid b {
+	font-weight: bold;
+}
+
+#mapid button {
+	border: none;
+	background-color: transparent;
+	color: rgb(0, 68, 255);
+	text-decoration: underline;
+	display: inline-block;
+	padding: 0px;
+}
+
+.estimations-ul li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}

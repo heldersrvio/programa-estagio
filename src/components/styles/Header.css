@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#header-bar {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	position: sticky;
+	z-index: 1000;
+	top: 0px;
+	left: 0px;
+	padding-top: 20px;
+	background: #17bd32;
+	background: -moz-linear-gradient(top, #17bd32 0%, #008d18 100%);
+	background: -webkit-linear-gradient(top, #17bd32 0%, #008d18 100%);
+	background: linear-gradient(to bottom, #17bd32 0%, #008d18 100%);
+	border-bottom: 3pt double white;
+}
+
+#header-bar h1 {
+	font-size: 45px;
+	font-weight: bold;
+	font-family: 'Pacifico', cursive;
+	color: white;
+}
